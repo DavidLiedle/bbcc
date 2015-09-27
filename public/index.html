@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html lang="en-us"
+      itemscope
+      itemtype="//schema.org/events">
+
+  <head>
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge" />
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon"
+          type="image/ico"
+          href="favicon.ico" />
+
+    <title>Best Buy Code Challenge by David Liedle</title>
+
+    <meta name="apple-mobile-web-app-title"
+          content="Best Buy Code Challenge">
+    <meta name="msapplication-config"
+          content="none"/>
+
+    <link rel="stylesheet"
+          href="assets/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="assets/lib/bootstrap-theme-supervillain/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="assets/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="assets/css/bbcalendar.css"><!-- Custom CSS styles for this project -->
+
+    <script data-main="assets/js/r_main"
+            src="assets/lib/requirejs/require.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="signature">2015 <small>December</small></h1>
+        </div>
+      </div>
+
+      <!-- DAYS ROW -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <h2>Sun</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Mon</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Tue</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Wed</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Thur</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Fri</h2>
+        </div>
+        <div class="col-xs-1 col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <h2>Sat</h2>
+        </div>
+      </div>
+
+      <!-- ROW 1 -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <div class="calendarDay"></div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay"></div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">1</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">2</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">3</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">4</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">5</div>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <div class="calendarDay">6</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">7</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="btn btn-primary calendarDay">8</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">9</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">10</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="btn calendarDay"
+               data-toggle="modal"
+               data-target="#modal1">
+            11
+            <div>
+              <i class="fa fa-calendar"
+                 title="Event 1: The 11th, with all the details, really log tooltip"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="btn btn-primary active calendarDay"
+               data-toggle="modal"
+               data-target="#modal2">
+            12
+            <div>
+              <i class="fa fa-calendar"
+                 title="Event 2: The 12th. Really long description to test the tooltips..."></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 3 -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <div class="calendarDay">13</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">14</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">15</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">16</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">17</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">18</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">19</div>
+        </div>
+      </div>
+
+      <!-- ROW 4 -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <div class="calendarDay">20</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">21</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">22</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">23</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">24</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">25</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">26</div>
+        </div>
+      </div>
+
+      <!-- ROW 5 -->
+      <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 calendarBox">
+          <div class="calendarDay">27</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">28</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">29</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">30</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay">31</div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay"></div>
+        </div>
+        <div class="col-xs-1 col-sm-1 col-md-1 calendarBox">
+          <div class="calendarDay"></div>
+        </div>
+      </div>
+
+      <!-- Project Link -->
+      <div class="row">
+        <div class="col-md-12" style="margin-top:12px;">
+          <p>
+            Please visit <a href="https://github.com/macdaddy/bbcc"
+                            target="_blank">https://github.com/macdaddy/bbcc</a>
+            to view this project's README file. :D
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="row contactInfo">
+        <div class="col-md-6">
+          <address>
+            <strong>DavidCanHelp.me</strong><br>
+            8547 E Arapahoe Rd #323<br>
+            Greenwood Village, CO 80112<br>
+            <abbr title="Phone">P:</abbr> +1 (323) 454-3353<br>
+            <abbr title="Fax">F:</abbr> +1 (323) 430-8886
+          </address>
+        </div>
+        <div class="col-md-6">
+          <address>
+            <strong>David Christian Liedle</strong><br>
+            <abbr title="Email">E:</abbr>
+            <a href="mailto:#">david.liedle@gmail.com</a>
+          </address>
+        </div>
+      </div>
+
+
+    </div><!-- END .container -->
+
+    <!-- MODAL 1 -->
+    <div class="modal fade"
+         id="modal1"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel1">
+      <div class="modal-dialog"
+           role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title"
+                id="myModalLabel1">December 11, 2015</h4>
+          </div>
+          <div class="modal-body">
+            Details for the event for #modal1 for December 11, 2015
+          </div>
+          <div class="modal-footer">
+            <button type="button"
+                    class="btn btn-default"
+                    data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div><!-- END MODAL 1 -->
+
+    <!-- MODAL 2 -->
+    <div class="modal fade"
+         id="modal2"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="myModalLabel2">
+      <div class="modal-dialog"
+           role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"><span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title"
+                id="myModalLabel2">December 12, 2015</h4>
+          </div>
+          <div class="modal-body">
+            Details for the event for #modal2 for December 12, 2015
+          </div>
+          <div class="modal-footer">
+            <button type="button"
+                    class="btn btn-default"
+                    data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div><!-- END MODAL 2 -->
+
+  </body>
+
+</html>

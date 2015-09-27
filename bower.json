@@ -1,0 +1,36 @@
+{
+  "name": "best-buy-code-challenge",
+  "version": "1.0.0",
+  "authors": [
+    "David Christian Liedle <david.liedle@gmail.com>"
+  ],
+  "description": "The Best Buy Code Challenge",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "dustjs",
+    "backbonejs",
+    "requirejs",
+    "bootstrap",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "http://davidcanhelp.me/best-buy-code-challenge",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "bootstrap": "3.0.0",
+    "dustjs-linkedin": "~2.7.2",
+    "font-awesome": "fontawesome#~4.4.0",
+    "lodash": "~3.10.1",
+    "requirejs": "~2.1.20",
+    "bootstrap-theme-supervillain": "master"
+  }
+}
