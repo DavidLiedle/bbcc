@@ -17,6 +17,7 @@ I'm familiar with Node/Express and Bootstrap from previous work, but I'm new to 
 
 ## The Data
 Here's the sample data I've been provided:
+```javascript
 
     {
       "month": "12",
@@ -44,6 +45,7 @@ Here's the sample data I've been provided:
 
     }
 
+```
 My first reaction to the data is to notice that the `"id"` fields both contain `"123"`. This may be on purpose to connect the two event, but it leaves us without a unique ID to work with. That's fine, because each event is an array element, so I'll just cycle through them and ignore that aspect for this challenge.
 
 Next, the `"time"` fields are storing text, so down the road we would have to parse the times if we wanted to work with them in depth. I might suggest a `"start"` and `"end"` field instead, but that's out of scope for the challenge.
@@ -71,3 +73,8 @@ The final requirement is that the solution should run out of the box (specifical
 
 ## The Sugar
 There's some cool stuff included, such as CDN/localhost fallback for RequireJS stuff, the one-command-does-it-all approach with `npm start`, and be sure to check out what's happening in console.log (which, if you're using Chrome's Developer Tools in the same window as you're viewing the page, will cause it to crush below the optimal viewing layout; again, responsiveness was not a requirement so I've coded to MVP only).
+
+### Current Status
+Presently the Bootstrap layout and Node.js/Express stuff is finished. Next up is implementation of DustJS and Backbone.js. Here's what you should see when the project runs as it currently is:
+
+<img src="http://davidcanhelp.me/assets/images/bbcc-view.png" width="640">
